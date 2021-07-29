@@ -1,0 +1,74 @@
+/* This is an css for quiz show */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* background-color:pink; */
+}
+h1{
+    background-color:red;
+    text-align: center;
+    color:yellow;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    opacity: 0.9;
+    
+}
+#quiz{
+
+display: block;
+    margin: 10px;
+    margin-right: auto;
+    width: 40%;
+    background-color:black;
+}
+
+button{
+    display: block;
+    background-color: darkblue;
+    color:yellow;
+    margin-left: auto;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    /* margin-top: -400px; */
+margin-top: 200px;
+    margin-right: 30px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 4rem;
+    text-decoration: none;
+    outline: none;
+    font-weight: bolder;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+button:hover{
+    background-color: green;
+    color: white;
+    font-size: 4rem;
+    border-radius: 30px;
+    overflow: hidden;
+    font-weight: bolder;
+    transform: scale3d(30px);
+}
+h2{
+    display: block;
+    text-align: center;
+background-color:yellow;
+color: red;
+opacity: 0.6;
+margin-right: auto;
+font-size: 5rem;
+width:50%;
+   margin-left:47%;
+   margin-bottom: -100px;
+   margin-top: -500px;
+   /* margin-left: 100px; */
+   margin-right: 50px;
+   font-weight: bolder;
+   
+   
+}
